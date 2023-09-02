@@ -93,4 +93,4 @@ http://127.0.0.1/
 ```
 
 ### Автор
-[![telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/qzonic
+[![telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/qzonic)
