@@ -19,7 +19,7 @@ tags:
     description: |
       Просмотреть информацию о доступных контактах. Добавление новых контактов доступно только авторизованным пользователям.
 paths:
-  /api/auth/users/:
+  /api/v1/auth/users/:
     post:
       operationId: Регистрация
       description: Регистрирует пользователя с переданными `username` и `password`
@@ -44,7 +44,7 @@ paths:
           description: 'Отсутствует обязательное поле или оно некорректно'
       tags:
         - AUTH
-  /api/auth/jwt/create/:
+  /api/v1/auth/jwt/create/:
     post:
       operationId: Получение токена
       description: Возвращает access и refresh токен, если переданные данные корректные
@@ -78,7 +78,7 @@ paths:
             description: 'Переданы некорректные данные'
       tags:
         - AUTH
-  /api/auth/jwt/refresh/:
+  /api/v1/auth/jwt/refresh/:
     post:
       operationId: Обновить access токен
       description: Обновляет access токен, если переданный refresh токен корректный
